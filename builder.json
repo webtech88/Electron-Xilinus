@@ -1,0 +1,30 @@
+{
+  "appId": "com.xilinus.app",
+  "directories": {
+    "output": "../release"
+  },
+  "publish": [
+    {
+      "provider": "generic",
+      "url": "https://www2.atriskcloud.net/cyber/InvictusCollect/release"
+    }
+  ],
+  "mac": {
+    "category": "your.app.category.type",
+    "target": [
+      "zip",
+      "dmg"
+    ]
+  },
+  "win": {
+    "target": [
+      "nsis"
+    ],
+    "verifyUpdateCodeSignature": false
+  },
+  "linux": {
+    "target": [
+      "AppImage"
+    ]
+  }
+}

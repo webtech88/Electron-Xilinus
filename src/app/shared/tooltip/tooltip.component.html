@@ -1,0 +1,15 @@
+<div class="tooltip" [style.left]="px+'px'" [style.top]="py+'px'"
+		 [@tooltipState]="state" #container>
+	<div class="row">
+		<span class="label">IP Address</span>
+		<span class="value">{{ ip }}</span>
+	</div>
+	<div class="row">
+		<span class="label">Network Type</span>
+		<span class="value">{{ network }}</span>
+	</div>
+	<div class="row">
+		<span class="label">Size</span>
+		<span class="value">{{ size }}</span>
+	</div>
+</div>

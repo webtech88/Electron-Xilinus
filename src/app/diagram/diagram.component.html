@@ -1,0 +1,17 @@
+<div class="diagram" #container>
+</div>
+<div class="view-method">
+  <button class="btn" [class.active]="allView" (click)="changeView(true)">All Types</button>
+  <button class="btn" [class.active]="!allView" (click)="changeView(false)">By Network</button>
+</div>
+<tooltip
+  [ip]="tooltip.key"
+  [network]="tooltip.networkType"
+  [size]="tooltip.size"
+  [px]="tx"
+  [py]="ty"
+  *ngIf="tooltip">
+</tooltip>
+<div class="view-loading" *ngIf="loading">
+  <img src="assets/loading.svg">
+</div>

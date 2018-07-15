@@ -1,0 +1,26 @@
+.tooltip {
+	position: fixed;
+	z-index: 999;
+	min-width: 200px;
+	background: #fff;
+	box-shadow: #aaa 0 0 5px;
+	padding: 8px;
+	font-size: 13px;
+	transition: opacity 0.3s ease-out;;
+	margin-bottom: 100%;
+	transform: translate(-50%, -100%);
+
+	.row {
+		padding: 2px 0;
+	}
+
+	.label {
+		display: inline-block;
+		width: 100px;
+		color: #888;
+	}
+
+	.value {
+		color: #333;
+	}
+}

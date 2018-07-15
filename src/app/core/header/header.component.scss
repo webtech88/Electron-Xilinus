@@ -1,0 +1,33 @@
+@import '../../theme';
+
+.header {
+  background-color: $primary-color-dark;
+  display: flex;
+
+  .logo {
+    flex: none;
+    width: 200px;
+    color: $primary-color-text;
+    font-size: 20px;
+    font-family: SANS-SERIF;
+    vertical-align: middle;
+    line-height: 50px;
+    padding-left: 16px;
+
+  }
+  .nav {
+    flex: 1;
+  }
+}
+
+a {
+  display: inline-block;
+  color: $primary-color-text;
+  padding: 16px;
+  text-decoration: none;
+
+  &.active {
+    background-color: $primary-color-light;
+    color: $primary-text-color;
+  }
+}

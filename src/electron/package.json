@@ -1,0 +1,11 @@
+{
+  "name": "InvictusCollect",
+  "description": "AtRIsk Invictus Collect Application",
+  "author": "AtRiskTech",
+  "version": "0.2.0",
+  "main": "main.js",
+  "dependencies": {
+    "electron-log": "^2.2.7",
+    "electron-updater": "^2.8.6"
+  }
+}

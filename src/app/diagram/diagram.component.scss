@@ -1,0 +1,44 @@
+:host {
+  height: 100%;
+  flex: 1;
+  padding: 16px;
+}
+
+.diagram {
+  width: 100%;
+  height: 100%;
+}
+
+tooltip {
+  height: 0;
+}
+
+.view-method {
+  position: absolute;
+  z-index: 10;
+  top: 90px;
+  left: 50px;
+  .btn {
+    height: 30px;
+    outline: none;
+    cursor: pointer;
+    &.active {
+      background-color: #1976d2;
+      border: 1px solid #1976d2;
+      color: white;
+    }
+  }
+}
+
+.view-loading {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 11;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(#000, 0.2);
+}
